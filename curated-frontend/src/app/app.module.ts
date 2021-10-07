@@ -1,3 +1,4 @@
+import { ReviewDetailComponent } from './components/review-detail/review-detail.component';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -9,7 +10,7 @@ import { UsersComponent } from './components/users/users.component';
 import { MovieDetailComponent } from './components/movie-detail/movie-detail.component';
 import { MoviesComponent } from './components/movies/movies.component';
 import { ReviewsComponent } from './components/reviews/reviews.component';
-import { ReviewDetailsComponent } from './components/review-details/review-details.component';
+
 import { MovieSearchComponent } from './components/movie-search/movie-search.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
@@ -22,7 +23,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     MovieDetailComponent,
     MoviesComponent,
     ReviewsComponent,
-    ReviewDetailsComponent,
+    ReviewDetailComponent,
     MovieSearchComponent
   ],
   imports: [
